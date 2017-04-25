@@ -1,3 +1,8 @@
 # Use HALs
 hal_client_domain(system_server, hal_lineage_fod)
 hal_client_domain(system_server, hal_lineage_touch)
+
+# Pocket lock
+allow system_server pocket_service:service_manager { add find };
+allow system_server pocket_judge_sysfs:dir search;
+allow system_server pocket_judge_sysfs:file rw_file_perms;
