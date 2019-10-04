@@ -1,0 +1,2 @@
+# Wi-Fi HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.wifi@1\.0-service\.legacy u:object_r:hal_wifi_default_exec:s0
