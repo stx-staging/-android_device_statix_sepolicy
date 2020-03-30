@@ -1,6 +1,6 @@
 #
 # This policy configuration will be used by all products that
-# inherit from CarbonROM
+# inherit from StatiXOS
 #
 
 ifeq ($(TARGET_COPY_OUT_VENDOR), vendor)
@@ -10,16 +10,16 @@ endif
 endif
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/carbon/sepolicy/common/public
+    device/statix/sepolicy/common/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/carbon/sepolicy/common/private
+    device/statix/sepolicy/common/private
 
 ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/carbon/sepolicy/common/dynamic
+    device/statix/sepolicy/common/dynamic
 else
 BOARD_SEPOLICY_DIRS += \
-    device/carbon/sepolicy/common/dynamic \
-    device/carbon/sepolicy/common/vendor
+    device/statix/sepolicy/common/dynamic \
+    device/statix/sepolicy/common/vendor
 endif
