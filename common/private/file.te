@@ -1,1 +1,1 @@
-type update_history_file, file_type;
+type update_history_file, file_type, data_file_type, core_data_file_type;
