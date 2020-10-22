@@ -19,7 +19,7 @@ ifeq ($(TARGET_USES_PREBUILT_VENDOR_SEPOLICY), true)
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
     device/statix/sepolicy/common/dynamic
 else
-BOARD_SEPOLICY_DIRS += \
+BOARD_VENDOR_SEPOLICY_DIRS += \
     device/statix/sepolicy/common/dynamic \
     device/statix/sepolicy/common/vendor
 endif
