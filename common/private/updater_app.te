@@ -26,3 +26,6 @@ get_prop(updater_app, default_prop)
 get_prop(updater_app, exported2_default_prop)
 
 set_prop(updater_app, recovery_update_prop)
+
+# LocalUpdater specific
+allow priv_app update_history_file:file rw_file_perms;
