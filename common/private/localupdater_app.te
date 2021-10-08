@@ -22,7 +22,7 @@ allow localupdater_app ota_package_file:dir create_dir_perms;
 allow localupdater_app ota_package_file:file create_file_perms;
 
 get_prop(localupdater_app, default_prop)
-get_prop(localupdater_app, exported2_default_prop)
+get_prop(localupdater_app, build_prop)
 
 # LocalUpdater specific
 allow localupdater_app update_history_file:file rw_file_perms;
