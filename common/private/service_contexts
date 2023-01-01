@@ -1,1 +1,2 @@
 pocket                                    u:object_r:pocket_service:s0
+lineagehealth                             u:object_r:lineage_health_interface_service:s0
