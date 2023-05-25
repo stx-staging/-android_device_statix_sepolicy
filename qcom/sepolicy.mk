@@ -10,7 +10,6 @@ ifneq (,$(filter msm8960 msm8226 msm8610 msm8974 apq8084 msm8909 msm8916 msm8952
 BOARD_SEPOLICY_M4DEFS += \
     qdisplay_service=vendor_qdisplay_service \
     sysfs_graphics=vendor_sysfs_graphics \
-    hal_keymaster_qti_exec=vendor_hal_keymaster_qti_exec \
     persist_block_device=vendor_persist_block_device \
     display_vendor_data_file=vendor_display_vendor_data_file \
     hal_perf_default=vendor_hal_perf_default \
